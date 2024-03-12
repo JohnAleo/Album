@@ -1,4 +1,5 @@
-[
+
+const album = [
   {
       "userId": 1,
       "id": 1,
@@ -500,3 +501,6 @@
       "title": "enim repellat iste"
   }
 ]
+
+console.log(album);
+console.log(album.map((a) => a.title));
